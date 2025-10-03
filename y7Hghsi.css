@@ -1,91 +1,4 @@
-       html, body {
-      margin: 0;
-      padding: 0;
-      overflow: hidden; 
-      touch-action: none;
-      overscroll-behavior: none; 
-      height: 100%;
-      font: 800 22px/1.1 'Luckiest Guy', 'Bangers', 'Comic Sans MS', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      position: relative;
-      z-index: 1;
-    }
-    video.bg-video {
-      position: fixed;
-      top: 0;
-      left: 0;
-      min-width: 100%;
-      min-height: 100%;
-      object-fit: cover;
-      z-index: -1; 
-    }
-    .overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
-      z-index: 0;
-    }
-
-    .shop-container {
-      position: fixed; 
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-   background: #000000;
-      border-radius: 14px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.6);
-      width: 380px;
-      max-width: 96%;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .shop-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 8px 12px;
-      font-weight: 700;
-      color: white;
-      font-size: 16px;
-      background: rgba(0,0,0,0.3);
-    }
-
-.cards-wrapper {
-    max-height: 520px;
-    overflow-y: scroll;
-    scrollbar-width: none; 
-    -ms-overflow-style: none; 
-}
-.cards-wrapper::-webkit-scrollbar {
-    display: none; 
-}
-
-
-.card {
-    background: #fab617;
-  margin: 10px;
-  padding: 10px;
-  display: flex;
-  height: 95px; 
-  gap: 12px;
-  border-radius: 10px;
-  align-items: center;
-  box-shadow: inset 0 -4px rgba(0,0,0,0.1);
-
-  background-size: 100% 100%; 
-  background-position: center; 
-  background-repeat: no-repeat; 
-}
-
-
+      
 
 .card-image-container {
   position: relative;
@@ -354,3 +267,4 @@
     text-decoration-line: underline; 
     text-decoration-style: double;   
   }
+    
