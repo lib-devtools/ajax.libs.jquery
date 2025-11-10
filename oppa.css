@@ -1,4 +1,3 @@
-
 .player-card {
  
 }
@@ -122,7 +121,7 @@
 
         
      
- .image-grid div {
+.image-grid div {
   position: relative;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -140,13 +139,26 @@
   margin: 0 auto;
 }
 
-.image-grid div.selected {
-  background: linear-gradient(to bottom, #00cc66 0%, #00cc66 100%) !important; 
-  box-shadow: 
-    0 15px 10px -10px rgba(0, 0, 0, 0.4),
-    0 0 15px rgba(0, 255, 0, 0.8);
-  transform: scale(1.03); 
+.image-grid div.selected::after {
+  content: '\2713'; 
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 25px;
+  height: 25px;
+  background-color: #00cc66; 
+  border: 3px solid #000;    
+  border-radius: 50%;        
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;               
+  font-size: 14px;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
 }
+
+
+
 .image-grid div img.flex-image {
   position: absolute;
   top: 10px;
@@ -597,7 +609,7 @@ background: #0066cc;
 
 @media (max-width: 768px) {
     .sequence-box {
-        width: 95%;  /* Set width to 95% on mobile */
+        width: 95%; 
     }
 }
 
@@ -605,7 +617,6 @@ background: #0066cc;
     display: none;
 }
 
-/* Pulse animation for spooky elements */
 @keyframes pulse {
     0% {
         transform: scale(1);
