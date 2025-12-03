@@ -1,0 +1,20 @@
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        body {font-family: "Kanit", sans-serif;}
+        header {color: #fff; min-height: 100vh;background: linear-gradient(180deg,rgb(12 18 71),rgb(40 51 125) 28%,rgb(80 93 173) 46%,rgb(125 142 209) 60%,rgb(174 188 230) 75%,rgb(239 236 255) 90%,rgb(255 255 255));}
+
+
+         header {text-align: center;padding: 20px;}.xload header .content {position: relative;}.xload header .stand {width: 90%;} .xload header .ip {position: absolute;top: 25px;width: 83%;left: 50%;transform: translateX(-50%);}
+
+        .timer {display: flex;justify-content: center;align-items: center;}.xload .timer > div.separator {margin: 0 5px;font-weight: bold;}.xload .timer > div:not(.separator) {display: flex;}.xload .timer > div:not(.separator) > div {background-color: rgb(100, 84, 186);width: 37px;margin: 2px;height: 45px;display: flex;justify-content: center;align-items: center;font-size: 1.5rem;}.xload .offer {margin-bottom: 10px;}
+
+
+        .action {display: flex;justify-content: center;margin-top: 35px;}.xload .action > div {background-color: #0071e3;font-size: 1.3rem;padding: 9px 40px;border-radius: 35px;font-weight: bold;border-bottom: 7px solid #13508e;cursor: pointer;}
+        .left {margin-top: 15px;color: #444;}
+
+        .comments {padding: 20px}
+        .comments .cm {display: flex;margin-bottom: 20px;}.xload .comments .cm .img img {width: 50px;height:50px;border-radius: 50%;}
+        .comments .cm .content {padding-left: 10px;}
+        .comments .txt {background-color: #eee;padding: 10px 15px;border-radius: 15px;max-width: 90%;}
+        .comments .txt p {all: unset;}
+        .comments .txt .name {font-weight: bold;}
+        .comments .content img {width: 80%;border-radius: 15px;margin-top: 5px;}
